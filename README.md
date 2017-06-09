@@ -7,3 +7,7 @@ popular-tag-for-opencart is a module for opencart,It can create one popular tag 
 opencart version 2.0.1.1 or below is recommended.
 
 we used on opencart version 2.0.1.1,because it has modules,The latest version does not support this module because there is no Modules ,so We hope you can use it version 2.0.1.1
+
+## How to use it?
+
+[How to use it?](https://github.com/1091986039/popular-tag-for-opencart/wiki/How-to-use-it%3F)  
