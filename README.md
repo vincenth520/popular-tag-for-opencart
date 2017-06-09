@@ -10,4 +10,8 @@ we used on opencart version 2.0.1.1,because it has modules,The latest version do
 
 ## How to use it?
 
-[How to use it?](https://github.com/1091986039/popular-tag-for-opencart/wiki/How-to-use-it%3F)  
+learn [How to use it?](https://github.com/1091986039/popular-tag-for-opencart/wiki/How-to-use-it%3F)  
+
+## Effect preview
+
+![popular-tag-for-opencart](http://luvial.cn/ueditor/php/upload/image/20170609/1496991543487820.png)
