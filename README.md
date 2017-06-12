@@ -15,3 +15,4 @@ learn [How to use it?](https://github.com/1091986039/popular-tag-for-opencart/wi
 ## Effect preview
 
 ![popular-tag-for-opencart](http://luvial.cn/ueditor/php/upload/image/20170609/1496991543487820.png)
+![popular-tag-for-opencart](http://luvial.cn/ueditor/php/upload/image/20170609/1496992178526179.png)
