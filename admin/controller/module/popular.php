@@ -139,12 +139,6 @@ class ControllerModulePopular extends Controller {
 		$data['button_cancel'] = $this->language->get('button_cancel');
 
 		$data['text_form'] = !isset($this->request->get['id']) ? $this->language->get('add_title') : $this->language->get('edit_title');
-
-		$data['header'] = $this->load->controller('common/header');
-
-		$data['column_left'] = $this->load->controller('common/column_left');
-
-		$data['footer'] = $this->load->controller('common/footer');
 		
 		$data['heading_title'] = $this->language->get('edit_title');
 
@@ -154,8 +148,15 @@ class ControllerModulePopular extends Controller {
 
 		$data['column_description'] = $this->language->get('column_description');
 
+
+		$data['header'] = $this->load->controller('common/header');
+
+		$data['column_left'] = $this->load->controller('common/column_left');
+
+		$data['footer'] = $this->load->controller('common/footer');
+		
 		if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
-			if($_FILES){
+			if(isset($_FILES['file']) && $_FILES['file']['name'] != ''){
 				$extend=pathinfo($_FILES['file']['name']);
 				$ext = array('xls','xlsx','csv');
 				if(!in_array($extend['extension'], $ext)){
@@ -204,6 +205,7 @@ class ControllerModulePopular extends Controller {
 		if(isset($this->request->get['id'])){
 			$data['popular'] = $this->model_module_popular->getPopularById($this->request->get['id']);			
 		}
+
 
 		$this->response->setOutput($this->load->view('module/popular_add.tpl', $data));
 	}
